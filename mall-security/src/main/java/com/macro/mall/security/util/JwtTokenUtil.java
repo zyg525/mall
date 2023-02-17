@@ -37,7 +37,7 @@ public class JwtTokenUtil {
     private String tokenHead;
 
     /**
-     * 根据负责生成JWT的token
+     * 根据负载生成JWT的token
      */
     private String generateToken(Map<String, Object> claims) {
         return Jwts.builder()
